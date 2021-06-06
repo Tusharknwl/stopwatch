@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div id="header">STOPWATCH</div>
+
+
+		<!-- lap time -->
+		<div class="laptime">
+			<span id="lapmin">00</span>:
+      <span id="lapsec">00</span>:
+      <span id="lapmilisec">00</span>
+    </div>
+<!-- stop watch time -->
+	<div class="time">
+    <span id="timemin">00</span>:
+    <span id="timesec">00</span>:
+    <span id="timemilisec">00</span>
+  </div>
+
+  <div id="controls" class="row">
+    <div class="col startbutton">
+      <div id="startbutton" class="control">
+        Start
+      </div>
+      <div id="stopbutton" class="control">
+        Stop
+      </div>
+      <div id="resumebutton" class="control">
+        Resume
+      </div>
+    </div>
+    <div class="col resetbutton">
+      <div id="lapbutton" class="control">
+        Lap
+      </div>
+      <div id="resetbutton" class="control">
+        Reset
+      </div>
+    </div>
+  </div>
+   <div id="laprecord"></div>
+</div>
+
+
+<script src="script.js"></script>
+<!-- bootstrap javascript and  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
